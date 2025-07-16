@@ -15,16 +15,159 @@
     font-style: normal;
 }
 
+/* shared style */
+
+.btn-primary{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: bisque;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-secondary{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.btn-secondary:hover{
+    background-color: bisque;
+    color: black;
+    border: 2px solid black;
+}
+
+.color-primary{
+    color: #252432;
+}
+
+/* Overall */
+
+*{
+    margin: 0;
+}
+
 /* 1. Header style */
 
-
 /* 1.1 nav style */
+
+nav{
+    padding-bottom: 158px;
+}
+
+nav ul{
+    padding-top: 50px;
+    margin: 0 auto;
+    max-width: 1140px;
+    max-height: 151px;
+    display: flex;
+    gap: 909px;
+    align-items: center;
+    justify-items: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.nav-logo{
+    font-weight: 900;
+    font: 900px;
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+/* nav style end */
+
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: cover;
+    /* margin: 0; */
+    /* padding: 50px auto 152px; */
+    border: none;
+    padding-bottom: 152px;
+}
+
+.headline{
+    margin: 0 auto;
+    max-width: 905px;
+    max-height: 237px;
+    text-align: center;
+}
+
+.headline-title{
+    font-weight: bold;
+    font-size: 65px;
+
+    margin-bottom: 37px;
+}
 
 
 /* 2 Main style */
 
+/* section contact-me */
 
-/* 2.1 section 1 */
+.contact-me{
+    max-width: 1140px;
+    max-height: 632px;
+    margin: 0 auto;
+    display: flex;
+    padding: 71px 0;
+    gap: 115px;
+    align-items: center;
+    justify-items: center;
+}
+
+.contact-me-title{
+    max-width: 528px;
+    max-height: 232px;
+    font-weight: bold;
+    font-size: 97px;
+    color: black;
+}
+
+form{
+    
+}
+
+label{
+    font-size: 18px;
+    font-weight: medium;
+    display: block;
+    margin: 19px 0 10px;
+}
+
+input{
+    display: block;
+    width: 496px;
+    border: 1px solid #D6DDED;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 0 0 15px;
+}
+
+textarea{
+    width: 96.7%;
+    height: 135px;
+    border: 1px solid #D6DDED;
+    border-radius: 5px;
+    padding: 20px 0 0 15px;
+
+    margin-bottom: 19px;
+}
 
 
 /* 3 Footer style */
